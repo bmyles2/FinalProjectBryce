@@ -1,0 +1,60 @@
+<Style>
+    h1 { text-align: left;
+        float: left;
+        font-weight: bold;
+        width: 300px;
+    }
+    body { background-color: #353131;
+           color: #8d3ebb;
+    }
+    #gallery { width: 700px; }
+    #gallery ul { width: 400px; 
+                  list-style-type: none;
+                  float: left;
+    }
+    #gallery li { display: inline; 
+                  float: left;
+                  padding: 30px;
+    }
+    #gallery img { border-style: none; }
+    figure { padding-top: 30px;
+             text-align: center; }
+    figcaption { font-weight: bold;
+                 font-size: 1.5em; }
+                 .nav_bar {
+                    margin: auto;
+                    border-bottom: 1px solid white;
+                    width: 1000px;
+                    padding: 0px 10px 0px 10px;
+                  }
+                  
+                  .nav_bar ul {
+                    padding: 0;
+                    list-style: none;
+                  }
+                  
+                  .nav_bar ul li {
+                    float: left;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-right: 10px;
+                  
+                  }
+                  
+                  .nav_bar ul li a {
+                    text-decoration: none;
+                    color: #e8caeb;
+                    background: #2b2b30;
+                    border:2px;
+                    border-bottom: none;
+                    padding: 20px 20px 20px 20px;
+                    -webkit-border-top-right-radius: 10px;
+                    -webkit-border-top-left-radius: 10px;
+                    -moz-border-radius-topleft: 10px;
+                    -moz-border-radius-topright: 10px;
+                    width: 75px;
+                    display: block;
+                    text-align: center;
+                  }
+ </Style>   
+    

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Twitch Con gallery </title>
+    <link href="stylesheetgallery.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#gallery a').hover(function() {
+                var galleryHref = $(this).attr('href');
+                var galleryAlt = $(this).attr('title');
+                $('figure img').attr({
+                    src: galleryHref,
+                    alt: galleryAlt
+                });
+                $('figcaption').html(galleryAlt);
+            });
+        });
+    </script>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <body>
+        <div class="nav_bar">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="twitch dmca.html">DMCA Effect On Twitch</a></li>
+                <li><a href="twitch and censorship.html">Twitch And Censorship</a></li>
+                <li><a href="twitch and internet laws.html">Twitch And Internet Laws</a></li>
+                <li><a href="twitchcon gallery.html"> Gallery</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+            <h1>Twitch Con Gallery</h1>
+            <div id="gallery">
+                <ul>
+                    <li>
+                        <a href="twitchcon1.png" title="Twitch Con 1"><img src="thumb1.png" width="100" height="75" alt="Twitch Con"></a>
+                    </li>
+                    <li>
+                        <a href="twitchcon2.png" title="Twitch Con 2"><img src="thumb2.png" width="100" height="75" alt="Twitch Con 2"></a>
+                    </li>
+                    <li>
+                        <a href="twitchcon3.png" title="Twitch Con 3"><img src="thumb3.png" width="100" height="75" alt="Twitch Con 3"></a>
+                    </li>
+                    <li>
+                        <a href="twitchcon4.png" title="Twitch Con 4"><img src="thumb4.png" width="100" height="75" alt="Twitch Con 4"></a>
+                    </li>
+                    <figure>
+                        <img src="twitchcon4.png" width="400" height="300" alt="Twitch Con Event">
+                        <figcaption>Twitch Con 2018</figcaption>
+                    </figure>
+            </div>
+
+    </body>
+
+</html>
