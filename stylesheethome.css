@@ -1,4 +1,4 @@
-<style>a:link,
+a:link,
 a:visited {
     background-color: #353131;
     ;
@@ -163,8 +163,7 @@ body {
 }
 
 .sidebar-col {
-    background: grey float: right;
+    background: grey;
+    float: right;
     width: 50;
 }
-
-</style>
