@@ -43,6 +43,7 @@ header {
 
 h1 {
     text-align: center;
+    padding: 0px 22px 22px;
     font-size: 300%;
     text-shadow: 3px 3px 3px #e9d5ee;
 }
